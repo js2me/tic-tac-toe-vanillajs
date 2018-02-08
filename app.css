@@ -1,0 +1,69 @@
+#board-container {
+    overflow: hidden;
+    width: 300px;
+    margin: 0 auto;
+    margin-top:70px;
+}
+
+
+.score-item {
+  font-size: 22px;
+}
+
+.stats {
+  margin-top:5px;
+}
+
+.nav-title {
+  margin-left: 10px;
+}
+
+.cell {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+.cell-1 {
+  border-left: solid  2px #607d8b;
+  border-right: solid  2px #607d8b;
+  border-radius: 5px;
+}
+
+.cell-3{
+  border-top: solid 2px #607d8b;
+  border-bottom: solid 2px #607d8b;
+  border-radius: 5px;
+}
+
+.cell-4{
+  border: solid 2px #607d8b;
+  border-radius: 5px;
+}
+
+.cell-5{
+  border-top: solid 2px #607d8b;
+  border-bottom: solid 2px #607d8b;
+  border-radius: 5px;
+}
+
+.cell-7{
+  border-left: solid 2px #607d8b;
+  border-right: solid 2px #607d8b;
+  border-radius: 5px;
+}
+
+.cell-x {
+  background: url("tic-x.png");
+  background-size: contain;
+
+}
+
+.cell-o {
+  background: url("tic-o.png");
+  background-size: contain;
+}
